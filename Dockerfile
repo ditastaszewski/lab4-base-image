@@ -22,7 +22,7 @@ RUN pip3 install --upgrade pip
 RUN pip3 install -r myapp/requirements.txt
 # Expose ports
 RUN pip3 install Flask
-EXPOSE 5000 8000
+EXPOSE 5000 80
 #EXPOSE 8000
 # Set the default directory where CMD will execute
 WORKDIR /myapp
